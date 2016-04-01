@@ -11,12 +11,5 @@ public class U10316052Buble {
 					arr[j + 1] = temp;
 				}
 	}
-	public static void main(String[] args) {
-		int[] number = {95,45,15,78,84,51,24,12};
-		int temp = 0;
-		bubble_sort(number);
-		for(int i = 0; i < number.length; i++) 
-			System.out.print(number[i] + " ");
-		System.out.println();
-	}
+
 }
